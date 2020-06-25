@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .header {
+            height: 20vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            /* border: 1px solid red; */
+            padding: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: rgb(57, 57, 88);
+            opacity: 0.8;
+        }
+
+        .header button {
+            font-size: 1.3rem;
+            padding: 10px 100px;
+            margin-top: 30px;
+            background: #9090ca;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.2s ease;
+           
+        }
+
+        .header button:hover {
+            transform: translateY(-5px);
+        }
+
+        .header button:active {
+            box-shadow: 0 0 0 5px rgb(144, 144, 202, 0.4);
+        }
+
+        .getInfo {
+            font-family: sans-serif;
+            width: 100%;
+            
+
+
+        }
+
+        .getInfo div {
+           padding: 10px 0;
+            /* border: 1px solid red; */
+        }
+
+        .getInfo div p {
+            font-size: 1.2rem;
+            opacity: 0.7;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .getInfo div hr {
+            border: none;
+            border-top: 1px solid rgb(53, 51, 77, 0.3);
+            width: 80%;
+            margin: auto;
+        }
+
+        .btn-hide {
+            transition: all 0.5s ease !important;
+            opacity: 0;
+            visibility: hidden;
+            
+        }
+
+    </style>
+    <title>JSON and AJEX</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>JSON and AJEX - Get info of 3 new animals.</h1>
+        <button type="button">Get data</button>
+    </div>
+    <div class="getInfo">
+        <!-- <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, saepe.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, saepe.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, saepe.</p>
+            <hr>
+        </div> -->
+    </div>
+    <script src="brain.js"></script>
+</body>
+
+</html>
